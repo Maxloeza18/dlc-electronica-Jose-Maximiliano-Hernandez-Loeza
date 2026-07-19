@@ -82,7 +82,7 @@ class BadBaseSensor:
         return 10.0
 
 class BrokenSensor(BadBaseSensor):
-    def get_value(self) -> str: # Viola LSP al cambiar la firma de retorno
+    def get_value(self) -> str: # type: ignore 
         return "Error de lectura"
 
 # BUEN DISEÑO: Ambas clases respetan el contrato de la interfaz.

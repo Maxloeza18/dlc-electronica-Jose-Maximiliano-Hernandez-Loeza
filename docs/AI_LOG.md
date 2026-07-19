@@ -55,3 +55,12 @@ Resultado:
 - Se esquematizó el proyecto "El Driver Modernizado".
 - Se explicaron los conceptos de inmutabilidad (`dataclass`), interfaces (`abc`) e inyección de dependencias (DIP) aplicados a cada archivo específico del driver.
 - Se definieron los parámetros para interactuar con la IA de forma iterativa, escribiendo primero las firmas de los métodos y docstrings.
+
+## Semana 1 - Entrada 6 (Sábado)
+
+**Prompt:** "Verifica la rubrica de entrega respecto a mi repo y dame los comandos para correr los tests generales"
+
+**Resultado:**
+- Se verificó el progreso contra la rúbrica de evaluación (FSM, SOLID, Driver Modernizado).
+- Se proveyeron los comandos para ejecutar validaciones globales de `ruff`, `pytest --cov` y `mypy`.
+

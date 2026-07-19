@@ -78,4 +78,5 @@ if __name__ == "__main__":
     
     # E. Verificamos que se pueda recuperar de la base de datos
     resultado = repo_prueba.get_latest("SnP_zona_1")
-    print(f"--- Dato recuperado del repositorio: {resultado.value} ---")
+    print(f"--- Dato recuperado del repositorio: {resultado.value} ---") # type: ignore
+    
